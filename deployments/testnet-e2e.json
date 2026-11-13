@@ -1,0 +1,263 @@
+{
+  "ran_at": "2026-11-09T17:14:17.402Z",
+  "contract": "v1.tacit-hq.testnet",
+  "dao": "sunday-makers.sputnikv2.testnet",
+  "passed": 46,
+  "total": 46,
+  "checks": [
+    {
+      "name": "a steward can place her proposal under silence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the spend starts Silent",
+      "ok": true,
+      "detail": "Silent"
+    },
+    {
+      "name": "the event names the spend",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "advancing before the window closes is refused",
+      "ok": true,
+      "detail": "ERR_STILL_SILENT"
+    },
+    {
+      "name": "a non-member cannot object",
+      "ok": true,
+      "detail": "ERR_NOT_A_MEMBER"
+    },
+    {
+      "name": "the same proposal cannot be registered twice",
+      "ok": true,
+      "detail": "ERR_ALREADY_REGISTERED"
+    },
+    {
+      "name": "a spend over her earned limit is refused",
+      "ok": true,
+      "detail": "ERR_OVER_PERSONAL_LIMIT"
+    },
+    {
+      "name": "a tiny payment can still use the budget",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a steward cannot pay herself",
+      "ok": true,
+      "detail": "ERR_SELF_PAY"
+    },
+    {
+      "name": "a stranger cannot use a steward's budget",
+      "ok": true,
+      "detail": "ERR_NOT_A_STEWARD"
+    },
+    {
+      "name": "only transfers can go through silence",
+      "ok": true,
+      "detail": "ERR_NOT_A_TRANSFER"
+    },
+    {
+      "name": "only the DAO can change a budget",
+      "ok": true,
+      "detail": "ERR_ONLY_THE_DAO"
+    },
+    {
+      "name": "a second spend is filed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a member can object",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the objection breaks the silence",
+      "ok": true,
+      "detail": "Contested"
+    },
+    {
+      "name": "a contested spend cannot be advanced by waiting",
+      "ok": true,
+      "detail": "ERR_STILL_CONTESTED"
+    },
+    {
+      "name": "the council can reject it the normal way",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the spend closes as Upheld",
+      "ok": true,
+      "detail": "Upheld"
+    },
+    {
+      "name": "the objector's upheld count rises",
+      "ok": true,
+      "detail": "{\"clean\":0,\"passed\":0,\"upheld_against\":0,\"overruled_for\":0,\"objections_upheld\":3,\"objections_overruled\":0}"
+    },
+    {
+      "name": "the sponsor's clean streak resets",
+      "ok": true,
+      "detail": "{\"clean\":0,\"passed\":3,\"upheld_against\":3,\"overruled_for\":0,\"objections_upheld\":0,\"objections_overruled\":0}"
+    },
+    {
+      "name": "one council reject escalates it without touching Tacit",
+      "ok": true,
+      "detail": "Contested"
+    },
+    {
+      "name": "the rejecting voter is recorded",
+      "ok": true,
+      "detail": "ines.tacit-hq.testnet"
+    },
+    {
+      "name": "a stranger can file in an open budget",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nobody can start the clock on someone else's request",
+      "ok": true,
+      "detail": "ERR_NOT_A_STEWARD"
+    },
+    {
+      "name": "in an open budget anyone can object",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "an objection after the window closes is refused",
+      "ok": true,
+      "detail": "ERR_WINDOW_CLOSED"
+    },
+    {
+      "name": "once silence holds, anyone can trigger the vote",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Tacit has voted and is confirming payment",
+      "ok": true,
+      "detail": "Paying"
+    },
+    {
+      "name": "the DAO recorded Tacit's vote alone and approved",
+      "ok": true,
+      "detail": "Approved"
+    },
+    {
+      "name": "Approved is not believed until it has settled",
+      "ok": true,
+      "detail": "ERR_STILL_SETTLING"
+    },
+    {
+      "name": "the spend closes as Paid",
+      "ok": true,
+      "detail": "Paid"
+    },
+    {
+      "name": "the money really moved from the DAO to the payee",
+      "ok": true,
+      "detail": "0.0800 NEAR"
+    },
+    {
+      "name": "the tiny payment was paid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a clean spend adds to the sponsor's record",
+      "ok": true,
+      "detail": "{\"clean\":1,\"passed\":5,\"upheld_against\":3,\"overruled_for\":0,\"objections_upheld\":0,\"objections_overruled\":0}"
+    },
+    {
+      "name": "the tiny payment earned no credit",
+      "ok": true,
+      "detail": "clean 1 after 2 payments"
+    },
+    {
+      "name": "the earned limit rises by one step",
+      "ok": true,
+      "detail": "0.4000 NEAR"
+    },
+    {
+      "name": "the open pot paid the stranger",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a payment is waiting when the brake is pulled",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a council member can pause a budget",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "a paused budget refuses new spends",
+      "ok": true,
+      "detail": "ERR_PAUSED"
+    },
+    {
+      "name": "a paused budget will not cast a vote",
+      "ok": true,
+      "detail": "ERR_PAUSED"
+    },
+    {
+      "name": "a stranger cannot resume it",
+      "ok": true,
+      "detail": "ERR_ONLY_THE_DAO"
+    },
+    {
+      "name": "a pause keeps the window open for objections",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "the DAO's own vote resumes the budget",
+      "ok": true,
+      "detail": "null"
+    },
+    {
+      "name": "resuming gives waiting payments a fresh window",
+      "ok": true,
+      "detail": "ERR_STILL_SILENT"
+    },
+    {
+      "name": "people can still object after a resume",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "evidence": {
+    "file_proposal": "https://testnet.nearblocks.io/txns/5vB3f43eCju5cK4t4CLdBsJG67t8YkFxwm58JBuJpNzo",
+    "register_spend": "https://testnet.nearblocks.io/txns/CbURUmGEJGZZpPfrE4MFk2MB8jT7RSbCo3yep5c9P1aP",
+    "ERR_STILL_SILENT": "https://testnet.nearblocks.io/txns/DN2ZRnXHivikBKucnvLNpd2PsBYu4nRkTjV21dtiE2kJ",
+    "ERR_NOT_A_MEMBER": "https://testnet.nearblocks.io/txns/3H8Xyc1536NDshTP4iQajsM6kMuuFvxe7PbZvXXeKdmf",
+    "ERR_ALREADY_REGISTERED": "https://testnet.nearblocks.io/txns/9tQYyrEbqdUWkWeRM8SY4K8JsG8bWTzct2yMWRouNPDP",
+    "ERR_OVER_PERSONAL_LIMIT": "https://testnet.nearblocks.io/txns/ioDTK2DCup64xFDVNqV1qCVkkPGRsSsT4Nby2KX3573",
+    "ERR_SELF_PAY": "https://testnet.nearblocks.io/txns/8nUVvFAktCZdvxb2ajpdqx3HeJwNjeZp9hKVJDkbxWEV",
+    "ERR_NOT_A_STEWARD": "https://testnet.nearblocks.io/txns/CF7jMmfbM1SUkgJxVK5z3erX6tgRZD45mWAdJy8uyJKE",
+    "ERR_NOT_A_TRANSFER": "https://testnet.nearblocks.io/txns/BrnuRWcMDJBaemGxHXBiuckKYb9Pk8e7iFJ28fT6ij6a",
+    "ERR_ONLY_THE_DAO": "https://testnet.nearblocks.io/txns/F5GWhNmEVuc51SHm3oaAbVbxBah1kgZbWpsA7wZ8dnfq",
+    "object": "https://testnet.nearblocks.io/txns/3w6XXKQMoUCsrG7pei8FHUDHmcCZa6VPX8pLPrP1dKJi",
+    "ERR_STILL_CONTESTED": "https://testnet.nearblocks.io/txns/BitKc1sJpMC9kEpPjfx6JtXwsKmyQhKAHL1f7fwgbYz8",
+    "council_reject": "https://testnet.nearblocks.io/txns/DLLjki1r7Dy2RfUnoyMFED2CxakqypCztSfHRu8jDPXs",
+    "close_upheld": "https://testnet.nearblocks.io/txns/8DmnC6xxZM9TqpeqJiXL6QPiVk8UvAS8NfGZZRSEWQbi",
+    "open_pot_register": "https://testnet.nearblocks.io/txns/8RKGVjBb24zP6JbLAEgm4jEFBaYRZ6XJPFJSx92ZFDyd",
+    "ERR_WINDOW_CLOSED": "https://testnet.nearblocks.io/txns/CexuvVw9apkRK7KPxFsJREQtqcxW47Hv7rfUkJngMQvR",
+    "silence_vote": "https://testnet.nearblocks.io/txns/2K55vcGy3zJqkR3REAqHVgYRvDbJSPk7GwqibW5SXBGB",
+    "ERR_STILL_SETTLING": "https://testnet.nearblocks.io/txns/6wRBd4JVySFXBhDcAJnEWHSWgXHauHpjJYLpn2QUjVYi",
+    "close_paid": "https://testnet.nearblocks.io/txns/H1w8jKWMVt25CpsKjThfTPCscy16XUyZBqnAx95kwFAz",
+    "pause": "https://testnet.nearblocks.io/txns/CqfLWmjjQj55V9auvXuRppCVt9YywPjAUBSrr54YUZgJ",
+    "ERR_PAUSED": "https://testnet.nearblocks.io/txns/6hoBpHmb4HRuwuhxMCR8ivcx3MWbTT6Qad8Nh2vAx5su",
+    "resume_by_dao": "https://testnet.nearblocks.io/txns/ANc2F2f8y8h1HBACiaR9RGLuGQkHoCiTqX4we8TciR9s"
+  }
+}

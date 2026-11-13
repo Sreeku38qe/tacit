@@ -1,0 +1,178 @@
+{
+  "generated_at": "2026-11-09T16:09:42Z",
+  "source": "public view calls against sputnik-dao.near and every DAO it created",
+  "left_out_as_machine_run": {
+    "bridge-validator.sputnik-dao.near": "234,000 proposals filed by bridge software"
+  },
+  "reported_separately_as_newsrooms": [
+    "nearweek-news-contribution.sputnik-dao.near",
+    "news.sputnik-dao.near"
+  ],
+  "unreadable": [
+    "i10101ora.sputnik-dao.near",
+    "i10101psn.sputnik-dao.near",
+    "i10340a.sputnik-dao.near",
+    "i10340b.sputnik-dao.near",
+    "i2087req.sputnik-dao.near",
+    "i2243drain.sputnik-dao.near",
+    "i2243pdrain.sputnik-dao.near",
+    "i8827tcb3628.sputnik-dao.near",
+    "i8827u790f0a.sputnik-dao.near",
+    "the-clan.sputnik-dao.near"
+  ],
+  "daos": {
+    "read": 2102,
+    "with_a_proposal": 1643,
+    "active_last_90d": 456,
+    "active_last_365d": 718,
+    "with_two_or_more_voters": 1106,
+    "single_voter": 992
+  },
+  "per_dao": {
+    "daos_where_a_proposal_failed": 961,
+    "silence_killed_more": 751,
+    "rejection_killed_more": 160,
+    "tied": 50
+  },
+  "per_dao_two_or_more_voters": {
+    "daos_where_a_proposal_failed": 710,
+    "silence_killed_more": 568,
+    "rejection_killed_more": 107,
+    "tied": 35
+  },
+  "per_dao_counting_only_proposals_with_a_yes": {
+    "daos_where_a_proposal_failed": 711,
+    "silence_killed_more": 435,
+    "rejection_killed_more": 244,
+    "tied": 32
+  },
+  "all": {
+    "total": 87050,
+    "approved": 59260,
+    "rejected": 12938,
+    "failed": 1867,
+    "open": 64,
+    "died": 12921,
+    "died_no_dissent": 10236,
+    "died_no_votes": 6793,
+    "died_only_yes": 3443,
+    "approved_with_no_dissent": 58640
+  },
+  "newsrooms": {
+    "total": 19590,
+    "approved": 6898,
+    "rejected": 10357,
+    "failed": 0,
+    "open": 0,
+    "died": 2335,
+    "died_no_dissent": 1359,
+    "died_no_votes": 1219,
+    "died_only_yes": 140,
+    "approved_with_no_dissent": 6470
+  },
+  "without_newsrooms": {
+    "total": 67460,
+    "approved": 52362,
+    "rejected": 2581,
+    "failed": 1867,
+    "open": 64,
+    "died": 10586,
+    "died_no_dissent": 8877,
+    "died_no_votes": 5574,
+    "died_only_yes": 3303,
+    "approved_with_no_dissent": 52170
+  },
+  "without_newsrooms_two_or_more_voters": {
+    "total": 62858,
+    "approved": 48764,
+    "rejected": 2291,
+    "failed": 1752,
+    "open": 20,
+    "died": 10031,
+    "died_no_dissent": 8335,
+    "died_no_votes": 5062,
+    "died_only_yes": 3273,
+    "approved_with_no_dissent": 48573
+  },
+  "without_newsrooms_transfers": {
+    "total": 29664,
+    "approved": 24343,
+    "rejected": 1251,
+    "failed": 367,
+    "open": 44,
+    "died": 3659,
+    "died_no_dissent": 2669,
+    "died_no_votes": 1559,
+    "died_only_yes": 1110,
+    "approved_with_no_dissent": 24254
+  },
+  "without_newsrooms_last_365d": {
+    "total": 10530,
+    "approved": 8493,
+    "rejected": 776,
+    "failed": 189,
+    "open": 64,
+    "died": 1008,
+    "died_no_dissent": 939,
+    "died_no_votes": 766,
+    "died_only_yes": 173,
+    "approved_with_no_dissent": 8487
+  },
+  "without_newsrooms_last_365d_two_or_more_voters": {
+    "total": 7491,
+    "approved": 5940,
+    "rejected": 592,
+    "failed": 143,
+    "open": 20,
+    "died": 796,
+    "died_no_dissent": 728,
+    "died_no_votes": 560,
+    "died_only_yes": 168,
+    "approved_with_no_dissent": 5934
+  },
+  "near_requested_in_transfers_with_only_yes_votes_that_died": 4041670,
+  "repeat_payees_without_newsrooms": {
+    "note": "transfers to an account this DAO had already paid three or more times",
+    "outcomes": {
+      "Approved": 11310,
+      "Rejected": 295,
+      "Expired": 202,
+      "Stale": 933,
+      "Failed": 123,
+      "InProgress": 2
+    }
+  },
+  "average_voter_turnout_where_three_or_more_voters": 0.257,
+  "bond_near_most_common": [
+    [
+      0.1,
+      1187
+    ],
+    [
+      0.0,
+      776
+    ],
+    [
+      1.0,
+      88
+    ],
+    [
+      0.01,
+      29
+    ]
+  ],
+  "proposal_period_days_most_common": [
+    [
+      7.0,
+      2022
+    ],
+    [
+      14.0,
+      15
+    ],
+    [
+      0.0,
+      14
+    ]
+  ]
+}

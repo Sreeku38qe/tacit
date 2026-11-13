@@ -1,0 +1,4 @@
+# near-sdk only uses the NEAR host functions when built with `--cfg near`.
+# Without it, panics lose their message and hashing is compiled into the wasm.
+[target.wasm32-unknown-unknown]
+rustflags = ["--cfg", "near"]

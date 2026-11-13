@@ -1,0 +1,9 @@
+[package]
+name = "tacit-logic"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "Pure decision rules for Tacit. No NEAR runtime, so every rule runs under plain cargo test."
+
+[dependencies]
+serde_json = "1"

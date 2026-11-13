@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tacit</title>
+    <meta
+      name="description"
+      content="A silence procedure for Sputnik DAO budgets. A payment passes unless someone objects in time."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%234a37ae'/%3E%3Cpath d='M7 8h18v4h-7v13h-4V12H7z' fill='%23f4f8f1'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=League+Gothic&family=Libre+Franklin:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg width="0" height="0" aria-hidden="true" style="position: absolute">
+      <filter id="rough">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6" />
+      </filter>
+    </svg>
+    <header class="masthead">
+      <a class="wordmark" href="#">Tacit</a>
+      <nav aria-label="Main">
+        <a href="#board" data-nav="board">Notice board</a>
+        <a href="#report" data-nav="report">Silence report</a>
+        <a href="#install" data-nav="install">Install</a>
+      </nav>
+      <div class="who" id="who"></div>
+    </header>
+    <main id="view"></main>
+    <footer class="foot">
+      <p>
+        Tacit never holds a DAO's money. It has one permission in the DAO's own policy, and one proposal removes it.
+      </p>
+      <p id="foot-net"></p>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

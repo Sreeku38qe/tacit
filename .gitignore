@@ -1,0 +1,9 @@
+node_modules/
+contract/target/
+data/raw/
+demo/out/
+demo/__pycache__/
+docs/
+.claude/
+*.env
+.env*

@@ -1,0 +1,52 @@
+{
+  "network": "testnet",
+  "contract": "v1.tacit-hq.testnet",
+  "dao": "sunday-makers.sputnikv2.testnet",
+  "factory": "sputnikv2.testnet",
+  "people": {
+    "council": [
+      "ines.tacit-hq.testnet",
+      "tomas.tacit-hq.testnet",
+      "arjun.tacit-hq.testnet"
+    ],
+    "members": [
+      "meera.tacit-hq.testnet",
+      "lena.tacit-hq.testnet"
+    ],
+    "payees": [
+      "community-hall.tacit-hq.testnet"
+    ]
+  },
+  "txs": {
+    "install_role_vote_ines": "89ECnP9ciskJMvTSbZLv7Ruc6YxT8sAjgxMXvAhAsEgy",
+    "install_role_vote_tomas": "3mfhcJU1mDuHpKAj7Led8Zow8ADH4ZWuWw1Wh6dSWPvH",
+    "fund_treasury": "heLUZFPQKsM2YWEbgdWenEoC21VttQntBfcLjSNuULL",
+    "budget_open_pot_vote_tomas": "4hHkiVUUYPPFL2t8RzsEBbNmNQ4meA9UQtdvVHNZatmr",
+    "deploy": "8rzxeAzB4DCQb9nPHZ1fL46wnscdPrg2J8tFSLjbZtWy",
+    "budget_workshop_costs_vote_ines": "HV6LnMQQWjZLpv1qAHuJvQfcFiGMZCmcNeRYW2HfM9b",
+    "budget_workshop_costs_vote_tomas": "7dXPBj6HyyCxpYePJkDEsADgfnjixo3mQ1zraCRYDoU",
+    "budget_open_pot_vote_ines": "9ohLtq6amiMKnbDnxKGSkKPy2aiB44278v8KrS2GQWMx",
+    "budget_e2e_steward_vote_ines": "4FGwbeFr6TVSadQ2jnH5LZn6qoaPX2fTsEGXqs2fe8FV",
+    "budget_e2e_steward_vote_tomas": "67MqMuDzmAVyRUCwSWwBbqaMD5hDdJjhBNRzQdk9nTrA",
+    "budget_e2e_open_vote_ines": "Cd5VffBbGEN9Ge4c76ji7Zgj4LKNdSABNkJW94bpuATr",
+    "budget_e2e_open_vote_tomas": "AjbdRcd9mrhHQS36gDqR3a2t5fXh3AeW8Vaq6t7Yn2Gf"
+  },
+  "budgets": [
+    {
+      "id": 0,
+      "label": "Workshop costs"
+    },
+    {
+      "id": 1,
+      "label": "Open pot"
+    },
+    {
+      "id": 2,
+      "label": "E2E steward"
+    },
+    {
+      "id": 3,
+      "label": "E2E open"
+    }
+  ]
+}
